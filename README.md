@@ -91,9 +91,9 @@ docker-compose down
 docker-compose up
 ```
 ## Customization
-Add new layers: Create a class inheriting `CacheBase` and implement get and set.
-Change layer order: Edit `CACHE_LAYERS` in `.env`.
-Adjust TTLs: Edit `INAPP_TTL`, `MEMCACHE_TTL`, `REDIS_TTL` in `.env`.
-Use any API: Provide a custom fetch function in `build_cache_manager(fetch_func)`.
+- Add new layers: Create a class inheriting `CacheBase` and implement get and set.
+- Change layer order: Edit `CACHE_LAYERS` in `.env`.
+- Adjust TTLs: Edit `INAPP_TTL`, `MEMCACHE_TTL`, `REDIS_TTL` in `.env`.
+- Use any API: Provide a custom fetch function in `build_cache_manager(fetch_func)`.
 
 
